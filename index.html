@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Dice Rolling Game </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+
+</head>
+<body>
+
+	
+	<main id="main">
+
+		<div style="height: 40%;width: 80%;margin:0.5%;padding: .5%;">
+			<center id="game">
+				Dice Rolling
+			</center>	
+		</div>
+
+		<div id="header">
+			
+			<div id="timer">
+				<section id="timerHeading">  <h2> Time Left: </h2> </section>
+				<section id="timerValue"> &emsp;-</section>
+			</div>
+
+			<div id="newGame">
+				<a href="index.html"><button> New Game </button><a>
+			</div>
+
+		</div>
+
+		<div id="display">
+			
+			<div id="image">
+				<img id="pic" src="start1.png">
+			</div>
+
+			<div id="scoreCard">
+				<p style="color:white; font-size: 30px;">
+					Total Score:
+				</p>
+
+				<div  id="score">
+					0
+				</div>
+			</div>
+
+		</div>
+
+		<div id="footer">
+			
+			<div id="rollButton">
+				<button type="button" id="roll" onclick="score()"><strong>Roll</strong></button>
+			</div>
+
+			<div id="text">
+			
+			</div>
+			<br><br>
+
+		</div>
+
+	</main>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+
+
+#main{
+	background-repeat: no-repeat;
+	background-image: url("bg2.jpg");
+	background-size: cover;
+}
+
+
+#game{
+	font-size: 90px;
+	font-family: "Ink Free";
+	color:darkblue;
+}
+
+#header{
+	margin: 2%;
+	border:1px solid red;
+	box-shadow: 2px 2px darkgrey;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#timer{
+	float: left;
+	overflow: hidden;
+	border:1px dotted white;
+	padding: 2%;
+	margin:1%;
+}
+
+#timerHeading h2{
+	/*font-size: 25px;*/
+	font-style: italic;
+	color:white;
+	background: transparent;
+}
+
+#timerValue{
+	font-size: 15px;
+	font-style: italic;
+	color:white;
+	background: transparent;
+}
+
+#newGame{
+	float: top;
+	margin-left: 80%;
+	padding: 5%;
+}
+
+#newGame button{
+	font-size: 25px;
+	color:green;
+	background: transparent;
+}
+
+#display{
+	padding: 15px;
+	margin: 2%;
+	border:1px solid red;
+	box-shadow: 2px 2px darkgrey;
+	overflow: hidden;
+}
+
+#image{
+	float: left;
+	margin-left: 10%;
+	height: 0.5%;
+	width:35%;	
+	overflow: hidden;
+}
+
+#image img{
+	border:4px solid blue;
+	max-height: 5%;
+	max-width: 80%;
+	border-radius: 10% 10% 10% 10%;
+}
+
+#scoreCard{
+	padding-left: 10px;
+	margin-left: 70%;
+	margin-right: 10%;
+	border:4px solid grey;
+}
+
+#score{
+	color:white; 
+	font-size: 50px;
+}
+
+#footer{
+	margin: 2%;
+	border:1px solid red;
+	box-shadow: 2px 2px darkgrey;
+	overflow: hidden;
+	position: relative;
+}
+
+#rollButton{
+	padding:1%;
+	float: top;
+}
+
+#rollButton button{
+	margin-left: 48%;
+	font-size: 25px;
+	color:green;
+	border:3px solid darkgrey;
+	padding: 1% 3% 1% 3%;
+	background: transparent;
+	border-radius: 10%;
+}
+
+#text{
+	left-margin:100%;
+	color:white;
+	font-family: "MV Boli";
+	font-size: 20px;
+	float: bottom;
+}
